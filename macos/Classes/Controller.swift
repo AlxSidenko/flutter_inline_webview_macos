@@ -63,7 +63,7 @@ public class FlutterWebViewMacosController: NSView {
 
       webView?.autoresizesSubviews = true
       webView?.autoresizingMask = [.height, .width]
-      super.layer?.backgroundColor = NSColor.red.cgColor
+      super.layer?.backgroundColor = NSColor.white.cgColor
       super.frame = frame
       
       DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
